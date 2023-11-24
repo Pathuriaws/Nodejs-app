@@ -6,7 +6,7 @@ pipeline {
     stages { 
         stage('SCM Checkout') {
             steps{
-            git 'https://github.com/Pathuriaws/Nodejs-app.git'
+	        git 'https://github.com/Pathuriaws/Nodejs-app.git'
             }
         }
 
@@ -32,4 +32,3 @@ post {
         }
     }
 }
-
