@@ -6,7 +6,7 @@ pipeline {
     stages { 
         stage('SCM Checkout') {
             steps{
-	    git 'https://github.com/Pathuriaws/Nodejs-app.git'
+	    git branch: 'main', url: 'https://github.com/Pathuriaws/Nodejs-app.git'
             }
         }
 
